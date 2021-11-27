@@ -1,0 +1,1 @@
+train.py --dir=./curves --dataset=CIFAR10Sub4 --use_test --transform=VGG --data_path=./data --model=VGG16 --curve=PolyChain --num_bends=3 --init_start=./curves/m1/checkpoint-10.pt --init_end=./curves/m2/checkpoint-10.pt --fix_start --fix_end --epochs=5 --lr=0.015 --wd=5e-4 --batch_size=64
